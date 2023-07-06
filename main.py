@@ -11,7 +11,7 @@ net_total = 0
 
 #Opens the csv files, creates a header, and the next function allows the code to be read after the header
 #Tutor Marc Calache assisted with the development of lines #17, #21, and #22
-#
+#The idea to sum a row on lines #19-21 originated from a Stack Overflow thread (Link: https://stackoverflow.com/questions/13517080/sum-a-csv-column-in-python, the author is named Martijn Pieters, and the date of the publication is November 22, 2012).
 with open(pybank_csv) as csvfile:
     pybank = csv.reader(csvfile)
     header = next(pybank)
