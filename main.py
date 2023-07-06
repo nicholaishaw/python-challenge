@@ -10,7 +10,8 @@ pypoll_csv = os.path.join("starter_code", "pypoll", "Resources", "election_data.
 net_total = 0
 
 #Opens the csv files, creates a header, and the next function allows the code to be read after the header
-#Tutor Marc Calache assisted with the development of lines # 
+#Tutor Marc Calache assisted with the development of lines #16, #20, and #21
+#
 with open(pybank_csv) as csvfile:
     pybank = csv.reader(csvfile)
     header = next(pybank)
