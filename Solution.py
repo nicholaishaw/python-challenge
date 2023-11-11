@@ -6,7 +6,7 @@ import os
 import csv
 
 results_path = 'results.txt'
-results = open(results_path, 'w')
+results = open(results_path)
 pybank_csv = os.path.join('PyBank', 'Resources', 'budget_data.csv')
 
 net_total = 0
