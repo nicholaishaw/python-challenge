@@ -3,7 +3,7 @@
 Two datasets (PyBank and PyPoll) were imported and simple calculations were performed using a python script.
 
 ## PyBank:
-The financial records of a company were given for analysis in a csv file called 'budget_data.csv.' The dataset was comprised of two columns: 'Date' and 'Profit/Losses.' The goal of the project and find the following information using python:
+The financial records of a company were given to us for analysis in a csv file called 'budget_data.csv.' The dataset was comprised of two columns: 'Date' and 'Profit/Losses.' The goal of the project and find the following information using python:
 * The total number of months included in the dataset
 * The net total amount of "Profit/Losses" over the entire period
 * The changes in "Profit/Losses" over the entire period, and then the average of those changes
@@ -17,7 +17,7 @@ The results were stored in a text file called 'results-PyBank.txt'
 **Figure 1.** *Financial calculations of the PyBank dataset.*
 
 ## PyPoll:
-For this project, a small, rural town needed help modernizing its voting process. A dataset was given containing every vote in a recent election. The dataset was composed of three columns that correspond to a separate vote: "Voter ID", "County", and "Candidate." The goals of this project were to find the following:
+For this project, a small, rural town needed help modernizing its voting process. A dataset was given to us containing every vote in a recent election. TFor each vote, three pieces of data were recorded: "Voter ID", "County", and "Candidate." The goals of this project were to find the following:
 
 * The total number of votes cast
 * A complete list of candidates who received votes
