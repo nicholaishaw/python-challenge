@@ -1,13 +1,24 @@
 # Data Analysis with Python
 
-Using python, two datasets were imported into python and analyzed using iterations and calculations. The results of the analyses of each dataset were exported to separate text files. 
+Two datasets (PyBank and PyPoll) were imported and simple calculations were performed using a python script.
 
 ## Description
 ### PyBank:
-The financial records of a company were given for analysis in a csv file called 'budget_data.csv.' The dataset was comprised of two columns: 'Date' and 'Profit/Losses.' The goal of the project was to iterate through the financial records and find the following information:
+The financial records of a company were given for analysis in a csv file called 'budget_data.csv.' The dataset was comprised of two columns: 'Date' and 'Profit/Losses.' The goal of the project and find the following information using python:
 * The total number of months included in the dataset
 * The net total amount of "Profit/Losses" over the entire period
 * The changes in "Profit/Losses" over the entire period, and then the average of those changes
 * The greatest increase in profits (date and amount) over the entire period
 * The greatest decrease in profits (date and amount) over the entire period
-The data were analyzed and the results were stored in a text file.
+
+The results were stored in a text file called 'results-PyBank.txt'
+
+![image](https://github.com/nicholaishaw/python-challenge/assets/135463220/96f3ddfd-1569-4687-a13c-901c0ce3c3d5)
+**Figure 1.** *Financial calculations of the PyBank dataset.*
+
+__
+### PyPoll:
+For this project, a small, rural town needed help modernizing its voting process. A dataset was given containing every vote in a recent election. The dataset was composed of three columns that correspond to a separate vote: "Voter ID", "County", and "Candidate"
+
+![image](https://github.com/nicholaishaw/python-challenge/assets/135463220/c050603a-a37d-425e-a133-e517ce0aecff)
+**Figure 2.** *Poll calculations of the PyPoll dataset.*
