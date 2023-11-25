@@ -18,7 +18,13 @@ The results were stored in a text file called 'results-PyBank.txt'
 
 __
 ### PyPoll:
-For this project, a small, rural town needed help modernizing its voting process. A dataset was given containing every vote in a recent election. The dataset was composed of three columns that correspond to a separate vote: "Voter ID", "County", and "Candidate"
+For this project, a small, rural town needed help modernizing its voting process. A dataset was given containing every vote in a recent election. The dataset was composed of three columns that correspond to a separate vote: "Voter ID", "County", and "Candidate." The goals of this project were to find the following:
+
+* The total number of votes cast
+* A complete list of candidates who received votes
+* The percentage of votes each candidate won
+* The total number of votes each candidate won
+* The winner of the election based on popular vote
 
 ![image](https://github.com/nicholaishaw/python-challenge/assets/135463220/c050603a-a37d-425e-a133-e517ce0aecff)
 **Figure 2.** *Poll calculations of the PyPoll dataset.*
