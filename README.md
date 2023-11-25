@@ -1,5 +1,13 @@
-# python-challenge
+# Data Analysis with Python
 
-1. Tutors Marc Calache and Mark Fullton assisted with the development of the logic and syntax of the code for the pybank and pypoll assignments in the python file
-2. The idea to sum a row on lines #19-21 originated from a Stack Overflow thread (Link: https://stackoverflow.com/questions/13517080/sum-a-csv-column-in-python, the author is named Martijn Pieters, and the date of the publication is November 22, 2012).
-3. The syntax to export python results to a text file was provided from: https://stackoverflow.com/questions/36571560/directing-print-output-to-a-txt-file
+Using python, two datasets were imported into python and analyzed using iterations and calculations. The results of the analyses of each dataset were exported to separate text files. 
+
+## Description
+### PyBank:
+The financial records of a company were given for analysis in a csv file called 'budget_data.csv.' The dataset was comprised of two columns: 'Date' and 'Profit/Losses.' The goal of the project was to iterate through the financial records and find the following information:
+* The total number of months included in the dataset
+* The net total amount of "Profit/Losses" over the entire period
+* The changes in "Profit/Losses" over the entire period, and then the average of those changes
+* The greatest increase in profits (date and amount) over the entire period
+* The greatest decrease in profits (date and amount) over the entire period
+The data were analyzed and the results were stored in a text file.
